@@ -10,7 +10,6 @@ if len(sys.argv) == 3:
     mark5 = sys.argv[6]
     print("User provided input values:")
 else:
-    script_name = stupro.py
     name = "yash"
     mark1 = "35"
     mark2 = "35"
