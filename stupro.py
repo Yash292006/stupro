@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) == 3:
-    name = sys.argv[0]
+    script_name = sys.argv[0]
     rollno = sys.argv[1]
     mark1 = sys.argv[2]
     mark2 = sys.argv[3]
@@ -10,7 +10,6 @@ if len(sys.argv) == 3:
     mark5 = sys.argv[6]
     print("User provided input values:")
 else:
-    name = "Yash"
     rollno = "030"
     mark1 = "35"
     mark2 = "35"
@@ -21,7 +20,8 @@ else:
 
 total = int(mark1) + int(mark2) + int(mark3) + int(mark4) + int(mark5)
 average = total / 5 
-print("Student Name:", name)
+print("Student Name:", script_name)
+print("Student Name:", rollno)
 print("Subject 1 marks :", mark1)
 print("Subject 2 marks :", mark2)
 print("Subject 3 marks :", mark3)
